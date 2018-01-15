@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
 
     QApplication app(argc, argv);
     cout << "Hello Git World" << endl;
+    cout << "Salut" << endl;
     
     // create and show your widgets here
 
