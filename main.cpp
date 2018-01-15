@@ -12,13 +12,17 @@
  */
 
 #include <QApplication>
+#include <iostream>
+
+using namespace std;
 
 int main(int argc, char *argv[]) {
     // initialize resources, if needed
     // Q_INIT_RESOURCE(resfile);
 
     QApplication app(argc, argv);
-
+    cout << "Hello Git World" << endl;
+    
     // create and show your widgets here
 
     return app.exec();
